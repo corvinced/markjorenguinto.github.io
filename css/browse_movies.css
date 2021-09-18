@@ -1,0 +1,129 @@
+body, html{
+	height: 100%;
+}
+
+.header {
+	padding-top: 10rem;
+	padding-bottom: 5rem;
+	padding-left: 10rem;
+	padding-right: 10rem;
+	font-size: 45px;
+	text-align: center;
+	height:auto;
+	background-color:#fff;
+}
+
+/*.subheader {
+	padding-top: 2rem;
+	padding-bottom: 5rem;
+	padding-left: 30rem;
+	padding-right: 30rem;
+	font-size: 15px;
+	text-align: center;
+	background-color:#fff;
+	height:auto;
+}*/
+
+.popular {
+	padding-top: 4rem;
+	font-size: 30px;
+	height:100%;
+	width: 100%; 
+	text-align: center;
+}
+
+.pop1, .pop2, .pop3, .pop4, .pop5 {
+	height: 250px;
+	margin-right: 1rem;
+	margin-left: 1rem;
+	text-align: center;
+	border-radius: 6px;
+}
+
+.pop1a, .pop2a, .pop3a, .pop4a, .pop5a{
+	height: 350px;
+	margin-right: 1rem;
+	margin-left: 1rem;
+}
+
+.pop1b, .pop2b, .pop3b, .pop4b, .pop5b{
+	margin: 0
+}
+
+.search_term {
+	font-size: 25px;
+}
+
+.form {
+	display: block;
+	width: 98%;
+	height: 50px;
+	font-size: 14px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-right: 12px;
+	padding-left: 45px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #232323;
+	border-radius: 4px;
+	outline-color: #232323;
+	color: #232323;
+	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+	vertical-align: middle;
+}
+
+#genre {
+	padding-left: 30px;
+}
+
+.button {
+	display: block;
+	border-radius: 4px;
+	background-color: #333333;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 15px;
+	padding: 15px;
+	width: 150px;
+	height: 50px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+	vertical-align:top;
+}
+
+.button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.button span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+.button:hover span {
+	padding-right: 25px;
+}
+
+.button:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+
+/*IMAGE IN TXTBX*/
+.serts_box {
+	height: 25px;
+	position: absolute;
+	top: 155px;
+	left: 340px;
+	filter: opacity(80%);
+}

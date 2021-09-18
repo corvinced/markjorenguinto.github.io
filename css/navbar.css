@@ -1,0 +1,17 @@
+.searchbutton{
+	filter: invert(100%);
+}
+
+.logo {
+  height: 3rem;}
+
+.quick_searchbox{
+	border-radius: 50px;
+	background-color: #232323;
+	width: 40rem;
+	height: 30px;
+	padding-left: 2rem;
+	outline-color: #232323;
+	color: white;
+	font-style: bold;
+}

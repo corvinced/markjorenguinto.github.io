@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<html lang="en">
+
+		<title>Mark Joren Guinto | Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="css/home.css">
+		<link rel="stylesheet" type="text/css" href="css/navbar.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+		<style>
+			.home-name {
+				font-size: 50pt;
+				color: white;
+				padding-top: 22%;
+				padding-bottom: 23%;
+			}
+
+			body {
+				width: 100%;
+				height: 50%;
+			}
+
+			.personal-details {
+				padding-top: 10%;
+				padding-bottom: 20%;
+			}
+
+			.icon {                
+                height: 7%;
+                width: 7%;
+            }
+
+			.icon-name {
+				position: absolute;
+				height: auto;
+				top: 139%;
+				left: 0%;
+                margin-left: 10%;
+            }
+
+            .label-name {
+				position: absolute;
+				height: auto;
+				top: 155.15%;
+                margin-left: 11.5%;
+            }
+
+            .name {
+                position: absolute;
+				height: auto;
+				top: 157.75%;
+                margin-left: 6%;
+            }
+
+			.icon-contact {
+				position: absolute;
+				height: auto;
+				top: 139%;
+				left: 14%;
+                margin-left: 20%;
+            }
+
+            .label-contact {
+                position: absolute;
+				height: auto;
+				top: 155.15%;
+				left: 12.6%;
+                margin-left: 20%;
+            }
+
+            .contact {
+                position: absolute;
+				height: auto;
+				top: 157.75%;
+				left: 13.15%;
+                margin-left: 20%;
+            }
+
+			.icon-email {
+				position: absolute;
+				height: auto;
+				top: 139%;
+				left: 39%;
+                margin-left: 20%;
+            }
+
+            .label-email {
+                position: absolute;
+				height: auto;
+				top: 155.15%;
+				left: 41%;
+                margin-left: 20%;
+            }
+
+            .email {
+                position: absolute;
+				height: auto;
+				top: 157.75%;
+				left: 35%;
+                margin-left: 20%;
+            }
+
+			.icon-address {
+				position: absolute;
+				height: auto;
+				top: 139%;
+				left: 62%;
+                margin-left: 20%;
+            }
+
+            .label-address {
+                position: absolute;
+				height: auto;
+				top: 155.15%;
+				left: 63%;
+                margin-left: 20%;
+            }
+
+            .address {
+                position: absolute;
+				height: auto;
+				top: 157.75%;
+				left: 58.5%;
+                margin-left: 20%;
+            }
+
+			.div-name {
+				margin-top: 8%;
+			}
+
+			.educational-background {
+				padding-top: 5%;
+				padding-bottom: 34%;
+			}
+
+			/* .div-high-school {
+				margin-top: 5%;
+			} */
+
+			.img {                
+                height: 15%;
+                width: 15%;
+            }
+
+			.img-hs {
+				position: absolute;
+				height: auto;
+				top: 228%;
+				left: 19%;
+                /* margin-left: 20%; */
+            }
+
+            .label-hs {
+                position: absolute;
+				height: auto;
+				top: 274%;
+				left: 22.5%;
+                /* margin-left: 20%; */
+            }
+
+            .hs {
+                position: absolute;
+				height: auto;
+				top: 277%;
+				left: 17.5%;
+                /* margin-left: 20%; */
+            }
+
+            .hs-year {
+                position: absolute;
+				height: auto;
+				top: 281%;
+				left: 24%;
+            }
+
+			.img-shs {
+				position: absolute;
+				height: auto;
+				top: 228%;
+				left: 42.5%;
+                /* margin-left: 20%; */
+            }
+
+            .label-shs {
+                position: absolute;
+				height: auto;
+				top: 274%;
+				left: 46.5%;
+                /* margin-left: 20%; */
+            }
+
+            .shs {
+                position: absolute;
+				height: auto;
+				top: 277%;
+				left: 41%;
+                /* margin-left: 20%; */
+            }
+
+            .shs-year {
+                position: absolute;
+				height: auto;
+				top: 281%;
+				left: 47.5%;
+            }
+
+			.img-college {
+				position: absolute;
+				height: auto;
+				top: 228%;
+				left: 66%;
+                /* margin-left: 20%; */
+            }
+
+            .label-college {
+                position: absolute;
+				height: auto;
+				top: 274%;
+				left: 71.5%;
+                /* margin-left: 20%; */
+            }
+
+            .college {
+                position: absolute;
+				height: auto;
+				top: 277%;
+				left: 62%;
+                /* margin-left: 20%; */
+            }
+
+            .college-year {
+                position: absolute;
+				height: auto;
+				top: 281%;
+				left: 70.7%;
+            }			
+
+			.certificates {
+				padding-top: 5%;
+				padding-bottom: 65%;
+			}
+
+			.label-awards {
+				position: absolute;
+				height: auto;
+				top: 325%;
+				left: 30%;
+			}
+
+			.icon-awards {
+				position: absolute;
+				height: auto;
+				top: 330%;
+				left: 30%;
+            }
+
+			.list-awards {
+				position: absolute;
+				height: auto;
+				top: 325%;
+				left: 45%;
+			}
+
+			.label-webinars {
+				position: absolute;
+				height: auto;
+				top: 370%;
+				left: 30%;
+			}
+
+			.icon-webinars {
+				position: absolute;
+				height: auto;
+				top: 375%;
+				left: 30%;
+            }
+
+			.list-webinars {
+				position: absolute;
+				height: auto;
+				top: 370%;
+				left: 45%;
+			}
+			
+			.label-recognitions {
+				position: absolute;
+				height: auto;
+				top: 408%;
+				left: 30%;
+			}
+
+			.icon-recognitions {
+				position: absolute;
+				height: auto;
+				top: 416%;
+				left: 30%;
+            }
+
+			.list-recognitions {
+				position: absolute;
+				height: auto;
+				top: 408%;
+				left: 45%;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<font face="century gothic">
+			<b>
+				<nav class="navbar navbar-inverse navbar-fixed-top navbar-expand-lg">
+					<div class="container-fluid">
+						<ul class="nav navbar-nav navbar-right">
+							<!-- <li class="active"><a href="index.html" style="margin-right: 1rem; margin-left: 1rem">MARK JOREN GUINTO</a></li> -->
+							<li><a href="#home" style="margin-right: 1rem; margin-left: 1rem">MARK JOREN GUINTO</a></li>
+							<li><a href="#personal" style="margin-right: 1rem; margin-left: 1rem">PERSONAL DETAILS</a></li>
+							<li><a href="#educational" style="margin-right: 1rem; margin-left: 1rem">EDUCATIONAL BACKGROUND</a></li>
+							<li><a href="#certs" style="margin-right: 1rem; margin-left: 1rem">CERTIFICATES</a></li>
+						</ul>
+					</div>
+				</nav>
+			</b>
+				<div class="home-name" id="home" style="background-image: url(img/bg-dark.jpg);">
+					<center>
+						<b>MARK JOREN GUINTO</b>
+						<h4>Bachelor of Computer Engineering</h4>
+					</center>
+				</div>
+
+				<hr id="personal">
+
+				<div class="personal-details">
+					<center><h2><b>PERSONAL DETAILS</b></h2></center>
+					<div class="div-name">
+						<img src="img/name-black.png" class="icon-name icon">
+						<br><br>
+                        <h4 class="label-name">N A M E</h4>
+                        <h3 class="name"><b>Mark Joren Castillio Guinto</b></h3>
+					</div>
+					<div class="div-contact">
+						<img src="img/contact-black.png" class="icon-contact icon">
+						<br><br>
+                        <h4 class="label-contact">C O N T A C T N U M B E R</h4>
+                        <h3 class="contact"><b>+63 987 654 3210</b></h3>
+					</div>
+					<div class="div-email">
+						<img src="img/email-black.png" class="icon-email icon">
+						<br><br>
+                        <h4 class="label-email">E M A I L</h4>
+                        <h3 class="email"><b>2018003537@dhvsu.edu.ph</b></h3>
+					</div>
+					<div class="div-address">
+						<img src="img/address-black.png" class="icon-address icon">
+						<br><br>
+                        <h4 class="label-address">A D D R E S S</h4>
+                        <h3 class="address"><b>San Fernando, Pampanga</b></h3>
+					</div>
+				</div>
+
+				<hr id="educational">
+
+				<div class="educational-background">
+					<br><br><br>
+					<center><h2><b>EDUCATIONAL BACKGROUND</b></h2></center>
+					<div class="div-high-school">
+						<img src="img/img-phs-1.jpg" class="img-hs img">
+						<br><br>
+						<h4 class="label-hs">H I G H S C H O O L</h4>
+                        <h3 class="hs"><b>PAMPANGA HIGH SCHOOL (PHS)</b></h3>
+                        <h4 class="hs-year"><b>2012 - 2016</b></h4>
+					</div>
+					<div class="div-senior-high">
+						<img src="img/img-phs-2.jpg" class="img-shs img">
+						<br><br>
+						<h4 class="label-shs">S E N I O R H I G H</h4>
+                        <h3 class="shs"><b>PAMPANGA HIGH SCHOOL (PHS)</b></h3>
+                        <h4 class="shs-year"><b>2016 - 2018</b></h4>
+					</div>
+					<div class="div-college">
+						<img src="img/img-dhvsu.jpg" class="img-college img">
+						<br><br>
+						<h4 class="label-college">COLLEGE</h4>
+                        <h3 class="college"><b>DON HONORIO VENTURA STATE UNIVERSITY</b></h3>
+                        <h4 class="college-year"><b>2018 - Present</b></h4>
+					</div>
+				</div>
+
+				<hr id="certs">
+
+				<div class="certificates">
+					<center><h2><b>CERTIFICATES</b></h2></center>
+					<div class="div-awards">
+						<h4 class="label-awards">A W A R D S</h4>
+						<img src="img/award.png" class="icon-awards icon">
+						<div class="list-awards">
+							<ul>
+								<li>
+									<h3><b>1st Place - Programming Challenge</b></h3>
+									<h4>
+										ICpEP.se CpE Challenge 2021
+										<br>
+										via Zoom Meeting
+									</h4>
+								</li>
+								<li>
+									<h3><b>1st Place - Programming Challenge</b></h3>
+									<h4>
+										CCS Day 2020
+										<br>
+										Don Honorio Ventura State University, Bacolor, Pampanga
+									</h4>
+								</li>
+								<li>
+									<h3><b>Participant - Programming Challenge</b></h3>
+									<h4>
+										ICpEP National Convention 2019
+										<br>
+										Puerto Prinsesa City, Palawan, Philiipines
+									</h4>
+								</li>
+								<li>
+									<h3><b>1st Place - Programming Challenge</b></h3>
+									<h4>
+										3rd IcpEP.se CpE Challenge 2019
+										<br>
+										Dr. Yanga's College, Inc., Bocaue, Bulacan, Philippines
+									</h4>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="div-webinars">
+						<h4 class="label-webinars">W E B I N A R S</h4>
+						<img src="img/certificate.png" class="icon-webinars icon">
+						<div class="list-webinars">
+							<ul>
+								<li>
+									<h3><b>User Interface: Plug in the right Elements</b></h3>
+									<h4>June 2021</h4>
+								</li>
+								<li>
+									<h3><b>Unmask Potentials: Decrypting Future Professionals</b></h3>
+									<h4>January 2021</h4>
+								</li>
+								<li>
+									<h3><b>Machine Learning</b></h3>
+									<h4>March 2020</h4>
+								</li>
+								<li>
+									<h3><b>Robotics Technology</b></h3>
+									<h4>March 2020</h4>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="div-recognitions">
+						<h4 class="label-recognitions">R E C O G N I T I O N S</h4>
+						<img src="img/recognition.png" class="icon-recognitions icon">
+						<div class="list-recognitions">
+							<ul>
+								<li>
+									<h3><b>President's Lister A.Y 2019-2021</b></h3>
+									<h4>Don Honorio Ventura State University, Bacolor, Pampanga</h4>
+								</li>
+								<li>
+									<h3><b>Leadership Award A.Y. 2020-2021</b></h3>
+									<h4>Don Honorio Ventura State University, Bacolor, Pampanga</h4>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<hr>
+
+				<div class="footer">
+					<center>
+						<h4>Mark Joren Guinto | Portfolio</h4>
+						<br>
+					</center>					
+				</div>
+		</font>
+
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src="js/home.js"></script>
+	</body>
+</html>
